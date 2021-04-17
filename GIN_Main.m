@@ -50,7 +50,7 @@ else
     end
 end
 fprintf('The Causal Order of Latent Variables is as following \n');
-Causal_Order=K;
+Causal_Order=K
 % for i=1:length(K)
 %     fprintf('The %d latent variable is \n',i);
 %     Lag=F_Cluster(K(i)).a;
